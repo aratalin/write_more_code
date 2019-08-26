@@ -10,3 +10,11 @@
 1. new sth.
 `pre->next = new ListNode(1);`
 2. use existing`ListNode *x = l1;`
+
+
+## Longest Substring Without Repeating Characters 
+1. add item to set
+`set.insert()`
+2. remove
+`set.erase()`
+3. 左右指针维护
