@@ -1,0 +1,28 @@
+class Solution {
+public:
+    string convert(string s, int numRows) {
+        if(numRows == 1) return s;
+        int n = s.size();
+        int moving = 2 * (numRows - 1);
+        string ans(s.size() + 1, '\0');
+        int now = 0;
+        for(int i = 0; i < s.size(); i += moving){
+            ans[now] = s[i];
+            now++;
+        }
+        for(int i = 1; i < numRows - 1; i++){
+            for(int j = 0; i + j < s.size(); j += moving){
+                ans[now] = s[i + j]; now++;
+                if (j + moving - i< s.size()) {
+                    ans[now] = s[j + moving - i];
+                    now ++;
+                }
+            }
+        }
+        for(int i = numRows - 1; i < s.size(); i+= moving){
+            ans[now] = s[i]; now ++;
+        }
+        
+        return ans;
+    }
+};
