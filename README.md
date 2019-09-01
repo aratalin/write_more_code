@@ -74,3 +74,28 @@ c.　何时往小往大。拿真实的值模拟一下。
 
 ### 22 pass
 产生所有可能的，dfs之 
+
+### 23 merge k sorted
+1. pq的使用
+- self defined compare function
+```cpp
+    struct cmp{
+        bool operator()(ListNode* a, ListNode* b){
+            return a->val > b->val; // 是否把a往后放
+        }
+    };
+    priority_queue<ListNode*, vector<ListNode*>, cmp > pq;
+```
+第二个参数是container
+小顶堆。 要写：是否把第一个参数往后挪。
+或者重载运算符
+```cpp
+ 9 bool operator<(Node a, Node b){//返回true时，说明a的优先级低于b
+10     //x值较大的Node优先级低（x小的Node排在队前）
+11     //x相等时，y大的优先级低（y小的Node排在队前）
+12     if( a.x== b.x ) return a.y> b.y;
+13     return a.x> b.x; 
+14 }
+```
+- `top()` instead of `front()` -> it is a heap
+2. 有空看看堆怎么写。
