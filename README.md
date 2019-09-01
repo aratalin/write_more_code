@@ -99,3 +99,8 @@ c.　何时往小往大。拿真实的值模拟一下。
 ```
 - `top()` instead of `front()` -> it is a heap
 2. 有空看看堆怎么写。
+
+### 31 next permutation
+![image/31.jpg](image/31.jpg)
+1. 边界判断
+2. 如何构成下一个排列：最小地提高：最后可以提高的位置：改成最小的最大值，重新使之从小变大。
