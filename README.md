@@ -124,4 +124,8 @@ todo:还能更优
 
 ### 42 trapping rain
 1. 左右最大值模拟。注意更新时机 
-2. todo ： 左右指针法减少空间。
+2. todo ： 左右指针法减少空间。 https://www.cnblogs.com/qiyueliu/p/10990663.html#autoid-1-0-0
+
+### 46 permutation
+1. lowerbit https://www.cnblogs.com/qiyueliu/p/10990663.html#autoid-1-0-0
+
