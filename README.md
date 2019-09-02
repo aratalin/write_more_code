@@ -129,3 +129,5 @@ todo:还能更优
 ### 46 permutation
 1. lowerbit https://www.cnblogs.com/qiyueliu/p/10990663.html#autoid-1-0-0
 
+### 48 rotate 
+1. 找规律，旋转一个值不变，只变位置
