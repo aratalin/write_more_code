@@ -139,3 +139,13 @@ todo:还能更优
 
 ### 55 jump game
 维护最远值，不要傻乎乎。
+
+### 56 merge intervals
+1.　自定义的cmp函数，需要是static的
+```cpp
+    static bool cmp(vector<int>&a, vector<int>&b){
+        if(a[0] == b[0]) return a[1] < b[1];
+        return a[0] < b[0];
+    }
+```
+小序
