@@ -149,3 +149,7 @@ todo:还能更优
     }
 ```
 小序
+
+### 62 minimum path sum
+1.滚动数组小心
+2. todo: 原地
