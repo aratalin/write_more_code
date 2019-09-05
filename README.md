@@ -163,3 +163,7 @@ todo:还能更优
 
 ### 75 sort color
 1. 已经处理过的值不是0就是1
+
+### 76 minimum window substring
+1. 注意边界细节
+2. todo: 还能更快？
