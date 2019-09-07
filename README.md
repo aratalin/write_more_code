@@ -180,6 +180,11 @@ todo:还能更优
 2. 模拟想一下出栈条件是什么。
 3. todo： 再深入学学
 
+### 85 Maximal Rectangle
+1. h很好理解。
+2. l r的更新方式。
+todo：again
+
 ### 94 Binary Tree Inorder Traversal
 1. 栈模拟dfs，进栈while
 2. 想想后序
