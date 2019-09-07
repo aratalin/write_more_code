@@ -174,3 +174,8 @@ todo:还能更优
 ### 79　word search
 1. 裸的dfs
 2. todo: 如何更快？
+
+### 84 largest rectangle in histogram
+1. 找到小于/大于某个点最近的点的时候，要想想单调栈。
+2. 模拟想一下出栈条件是什么。
+3. todo： 再深入学学
