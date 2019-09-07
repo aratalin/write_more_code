@@ -179,3 +179,7 @@ todo:还能更优
 1. 找到小于/大于某个点最近的点的时候，要想想单调栈。
 2. 模拟想一下出栈条件是什么。
 3. todo： 再深入学学
+
+### 94 Binary Tree Inorder Traversal
+1. 栈模拟dfs，进栈while
+2. 想想后序
