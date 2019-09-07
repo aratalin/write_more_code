@@ -198,3 +198,6 @@ todo：again
 
 ### 101 Symmetric Tree
 递归，左右右左检查是否一致。
+
+### 102 Binary Tree Level Order Traversal
+1. 什么是深度优先遍历？
