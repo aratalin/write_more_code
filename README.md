@@ -195,3 +195,6 @@ todo：again
 ### 98 Validate Binary Search Tree
 1. 写的极挫。
 2. 研究引用
+
+### 101 Symmetric Tree
+递归，左右右左检查是否一致。
