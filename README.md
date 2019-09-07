@@ -191,3 +191,7 @@ todo：again
 
 ### 96 Unique Binary Search Trees
 1. dp函数设置
+
+### 98 Validate Binary Search Tree
+1. 写的极挫。
+2. 研究引用
