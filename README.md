@@ -216,3 +216,28 @@ todo：again
 ### 128 Longest Consecutive Sequence
 1. 不insert的话count 比 find好，不加东西。
 2. 避免重复查找的方法
+
+### 139 Word Break
+1. 可达性的使用和如何查一个word在dict里，不就set咩。
+2. 构造trie树
+```cpp
+    struct TrieNode{
+        bool flag;
+        map<char, TrieNode*> next;
+        TrieNode(): flag(false){}
+    };
+    void struct_trie(vector<string>& wordDict){
+        root = new TrieNode();
+        for(auto word: wordDict){
+            TrieNode* now = root;
+            for(auto c: word){
+                if(now->next.find(c) == now->next.end()){
+                    now->next[c] = new TrieNode();
+                }
+                now = now->next[c];
+            }
+            now->flag = true;
+        }
+    }
+```
+3. 记忆化搜索。从前往后搜全部，所以要记录vis{i}表示i后面有没有被搜索过。
