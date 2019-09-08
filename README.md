@@ -201,3 +201,8 @@ todo：again
 
 ### 102 Binary Tree Level Order Traversal
 1. 什么是深度优先遍历？
+
+### 105 Construct Binary Tree from Preorder and Inorder Traversal
+1. 使用index map
+2. 左右分
+3. todo 有空106
