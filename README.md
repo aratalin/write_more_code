@@ -208,3 +208,4 @@ todo：again
 3. todo 有空106
 
 ### 114 Flatten Binary Tree to Linked List
+### 121 Best Time to Buy and Sell Stock
