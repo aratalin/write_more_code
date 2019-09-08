@@ -206,3 +206,5 @@ todo：again
 1. 使用index map
 2. 左右分
 3. todo 有空106
+
+### 114 Flatten Binary Tree to Linked List
