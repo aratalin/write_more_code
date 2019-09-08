@@ -212,3 +212,7 @@ todo：again
 
 ### 124 Binary Tree Maximum Path Sum
 1. 树上dp，对每个节点来说，最长的是尝试用自己把左右的最长路径连起来。返回给上一层，就是自己，自己+左边，自己+右边。
+
+### 128 Longest Consecutive Sequence
+1. 不insert的话count 比 find好，不加东西。
+2. 避免重复查找的方法
