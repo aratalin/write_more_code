@@ -209,3 +209,6 @@ todo：again
 
 ### 114 Flatten Binary Tree to Linked List
 ### 121 Best Time to Buy and Sell Stock
+
+### 124 Binary Tree Maximum Path Sum
+1. 树上dp，对每个节点来说，最长的是尝试用自己把左右的最长路径连起来。返回给上一层，就是自己，自己+左边，自己+右边。
