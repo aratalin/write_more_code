@@ -287,3 +287,6 @@ todo：again
 
 ### 169 Majority Element
 1. sum ( == major ? 1 : -1) > 0。所以维护和，同归于尽
+
+### 198 House Robber
+水dp
