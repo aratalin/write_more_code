@@ -267,3 +267,16 @@ todo：again
 ### 152 Maximum Product Subarray
 1. 因为乘积可以变号，所以要维护最大最小值。
 2. 因为负数交叉相乘，所以要用中间变量存结果。
+
+### 155 Min Stack
+1. vec.size() 记录的是当前有多少个值，而非空间。
+```
+    f.push_back(0);
+    f.push_back(1);
+    cout<<f.size() << endl;
+    f.pop_back();
+    cout<<f.size() <<endl;
+```
+的结果为2,1
+2. 单调性->栈
+3. todo 单调队列
