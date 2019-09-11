@@ -280,3 +280,7 @@ todo：again
 的结果为2,1
 2. 单调性->栈
 3. todo 单调队列
+
+### 160 Intersection of Two Linked Lists
+1. 搞笑法，把B的结尾接到A上，就成了找链表找环入口的问题。
+2. 消除长度法。
