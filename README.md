@@ -300,3 +300,20 @@ todo：again
 ### 207 Course Schedule
 cont
 ### 208 Implement Trie (Prefix Tree)
+
+### 215 Kth Largest Element in an Array
+```
+    int partition(vector<int>& nums, int s, int e){
+        if(s == e) return s;
+        int now = nums[s];
+        while(s < e){
+            while(s < e && nums[e] <= now) --e;
+            nums[s] = nums[e];
+            while(s < e && nums[s] >= now) ++s;
+            nums[e] = nums[s];
+        }
+        nums[s] = now;
+        return s;
+    }
+```
+partition写法
