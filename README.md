@@ -333,3 +333,9 @@ easy
 ### 236 Lowest Common Ancestor of a Binary Tree
 1. ok
 2. other methods
+
+### 239 Sliding Window Maximum
+1. 双端队列 deque
+- `push_back(), push_front()`
+- `pop_back()` ...
+2. 单调队列实现 ok
