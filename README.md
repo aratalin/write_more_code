@@ -339,3 +339,6 @@ easy
 - `push_back(), push_front()`
 - `pop_back()` ...
 2. 单调队列实现 ok
+
+### 283 Move Zeroes
+1. todo swap idea
