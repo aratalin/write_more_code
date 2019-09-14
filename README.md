@@ -350,3 +350,16 @@ easy
 
 ### 283 Move Zeroes
 1. todo swap idea
+
+### 300 Longest Increasing Subsequence
+1. dp[i]表示长度为i的最后一个的最小值。
+2. 二分搜大于某个的小值。
+```cpp
+                int l = 1, r = len;
+                while(l <= r){
+                    int mid = (l + r) >> 1;
+                    if(dp[mid] >= nums[i]) r = mid - 1;
+                    else l = mid + 1;
+                }
+                dp[l] = nums[i];
+```
