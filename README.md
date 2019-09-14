@@ -340,5 +340,11 @@ easy
 - `pop_back()` ...
 2. 单调队列实现 ok
 
+### 240 Search a 2D Matrix II
+1. 每次删掉一行或者一列。
+2. 重点是开始的位置。 某行最大某列最小。
+
+### 
+
 ### 283 Move Zeroes
 1. todo swap idea
