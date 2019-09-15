@@ -379,3 +379,6 @@ easy
 
 ### 338 Counting Bits
 1. 左移一位，所以用1/2推出当前
+
+### 347 Top K Frequent Elements
+1. 注意pq的写法
