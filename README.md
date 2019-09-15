@@ -376,3 +376,6 @@ easy
 
 ### 337 House Robber III
 1. 典型树形dp
+
+### 338 Counting Bits
+1. 左移一位，所以用1/2推出当前
