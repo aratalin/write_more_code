@@ -382,3 +382,6 @@ easy
 
 ### 347 Top K Frequent Elements
 1. 注意pq的写法
+
+### 394 Decode String 
+栈模拟，码力细节
