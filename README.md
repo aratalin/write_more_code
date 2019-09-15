@@ -363,3 +363,6 @@ easy
                 }
                 dp[l] = nums[i];
 ```
+
+### 309 Best Time to Buy and Sell Stock with Cooldown
+1. 状态机的提取和转移
