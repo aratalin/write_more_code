@@ -367,6 +367,10 @@ easy
 ### 309 Best Time to Buy and Sell Stock with Cooldown
 1. 状态机的提取和转移
 
+### 312 Burst Balloons
+1. 复杂dp。
+2. 因为区间会改变，所以dp状态定义为一个区间。
+
 ### 322 Coin Change
 1. 背包
 
