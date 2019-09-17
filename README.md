@@ -400,3 +400,7 @@ vector的cmp函数
 static bool cmp(v1, v2)
 是否把a放前面
 ```
+
+### 437 Partition Equal Subset Sum
+1. 01背包，外循环什么东西，内循环从大到小。
+推一下会不会用到自己
