@@ -409,3 +409,7 @@ static bool cmp(v1, v2)
 维护当前到根节点所有sum值。 有x-y = sum 查y=x-sum
 ### 438 Find All Anagrams in a String
 滑动窗口
+
+### 448 Find All Numbers Disappeared in an Array
+1. 非常巧妙的思想，用是否把某个位置置为负数标记对应的值是否出现过。
+2. 用绝对值保证数值本身的含义可以被复原。
