@@ -433,5 +433,12 @@ easy dfs
 ### 560 Subarray Sum Equals K
 和之前树上和一个道理
 
+### 581 Shortest Unsorted Continuous Subarray
+逻辑有点复杂。。。
+先走过所有的递增数，在非递增开始的地方找到最小值。
+然后在前面的递增序列里找到第一个大于他的值。这里就是左端点。
+找大于可以二分，还没写，tooto
+同理右端点
+
 ### 617 Merge Two Binary Trees
 easy dfs
