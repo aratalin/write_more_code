@@ -423,3 +423,9 @@ static bool cmp(v1, v2)
 3. 变成了01背包的策略数量问题。dp[j] += dp[j-i]
 4. 最后dp除了个2，因为S的正负（或者说算在哪一边）都算进去了，但只要一种。
 可能有点复杂。可能不把S加进数组直接求和会好理解。
+
+### 538 Convert BST to Greater Tree
+dfs 顺序问题
+
+### 543 Diameter of Binary Tree
+easy dfs
