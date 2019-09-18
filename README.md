@@ -429,3 +429,6 @@ dfs 顺序问题
 
 ### 543 Diameter of Binary Tree
 easy dfs
+
+### 560 Subarray Sum Equals K
+和之前树上和一个道理
