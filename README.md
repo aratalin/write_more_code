@@ -443,5 +443,13 @@ easy dfs
 ### 617 Merge Two Binary Trees
 easy dfs
 
+### 621 Task Scheduler
+idea!
+最多的是瓶颈
+
+### 647 Palindromic Substrings
+1. dp，注意这种往里面缩的dp外层应该是长度啊啊啊
+2. 反正都N2了不如直接干
+
 ### 739 
 单调栈
