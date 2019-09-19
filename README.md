@@ -100,6 +100,9 @@ c.　何时往小往大。拿真实的值模拟一下。
 - `top()` instead of `front()` -> it is a heap
 2. 有空看看堆怎么写。
 
+### 25. Reverse Nodes in k-Group
+1. 这种模拟型的，边模拟每个阶段边写。
+
 ### 31 next permutation
 ![image/31.jpg](image/31.jpg)
 1. 边界判断
