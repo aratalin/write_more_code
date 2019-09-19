@@ -150,6 +150,8 @@ todo:还能更优
 ```
 sort里的cmp是把谁放前面。
 小序
+### 61 Rotate List
+变环转一转，注意长度处理
 
 ### 62 unique path
 组合数学
