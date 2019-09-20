@@ -103,6 +103,22 @@ c.　何时往小往大。拿真实的值模拟一下。
 ### 25. Reverse Nodes in k-Group
 1. 这种模拟型的，边模拟每个阶段边写。
 
+### 30. Substring with Concatenation of All Words
+1. 重点条件是长度一样。
+2. 坑： 不要用tmp(f), tmp = f。用时爆炸，内存爆炸。大概这里没有释放内存？ todo
+不作死
+执行用时 :
+28 ms
+, 在所有 C++ 提交中击败了
+98.47%
+的用户
+内存消耗 :
+12.5 MB
+, 在所有 C++ 提交中击败了
+85.31%
+的用户
+
+作死：几百几百
 ### 31 next permutation
 ![image/31.jpg](image/31.jpg)
 1. 边界判断
