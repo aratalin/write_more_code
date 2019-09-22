@@ -140,6 +140,8 @@ todo:还能更优
 
 ### 39
 组合就dfs pass
+### 41 First Missing Positive 
+和另一题一样，用正负来做哈希
 
 ### 42 trapping rain
 1. 左右最大值模拟。注意更新时机 
