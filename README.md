@@ -147,6 +147,10 @@ todo:还能更优
 1. 左右最大值模拟。注意更新时机 
 2. todo ： 左右指针法减少空间。 https://www.cnblogs.com/qiyueliu/p/10990663.html#autoid-1-0-0
 
+### 44 Wildcard Matching
+dp
+注意*的边界初始化
+
 ### 46 permutation
 1. lowerbit https://www.cnblogs.com/qiyueliu/p/10990663.html#autoid-1-0-0
 
