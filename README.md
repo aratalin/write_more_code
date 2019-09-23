@@ -151,6 +151,9 @@ todo:还能更优
 dp
 注意*的边界初始化
 
+### Jump Game2
+维护当前步最远的和下一步最远的。
+
 ### 46 permutation
 1. lowerbit https://www.cnblogs.com/qiyueliu/p/10990663.html#autoid-1-0-0
 
