@@ -164,6 +164,8 @@ dp
 
 ### 51 N Queens
 dfs + 剪枝
+### 52 N Queens
+位运算优化
 
 ### 53 最大子串和。
 常规操作
@@ -181,6 +183,10 @@ dfs + 剪枝
 ```
 sort里的cmp是把谁放前面。
 小序
+
+### 57 Insert intervals
+遍历一遍。。但是有点慢todo
+
 ### 61 Rotate List
 变环转一转，注意长度处理
 
