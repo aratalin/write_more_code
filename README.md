@@ -196,6 +196,8 @@ sort里的cmp是把谁放前面。
 ### 64 minimum path sum
 1.滚动数组小心
 2. todo: 原地
+### 68 	Text Justification
+模拟就行 pass
 
 ### 72
 1. 滚动数组 - -
