@@ -227,6 +227,9 @@ sort里的cmp是把谁放前面。
 2. l r的更新方式。
 todo：again
 
+### 87 	Scramble String 
+1. 枚举分割点，爆搜
+
 ### 94 Binary Tree Inorder Traversal
 1. 栈模拟dfs，进栈while
 2. 想想后序
