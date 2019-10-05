@@ -243,6 +243,10 @@ todo：again
 1. 写的极挫。
 2. 研究引用
 
+### 99 Recover Binary Search Tree    
+BST的中序遍历是升序的。
+第一个不对的和最后一个不对的，交换
+
 ### 101 Symmetric Tree
 递归，左右右左检查是否一致。
 
