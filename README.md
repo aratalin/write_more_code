@@ -352,6 +352,8 @@ https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/solutio
 ### 160 Intersection of Two Linked Lists
 1. 搞笑法，把B的结尾接到A上，就成了找链表找环入口的问题。
 2. 消除长度法。
+### 167 Two sum 2
+pass
 
 ### 169 Majority Element
 1. sum ( == major ? 1 : -1) > 0。所以维护和，同归于尽
