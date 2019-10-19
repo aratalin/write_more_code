@@ -219,7 +219,10 @@ sort里的cmp是把谁放前面。
 ### 79　word search
 1. 裸的dfs
 2. todo: 如何更快？
-
+### 81 search in rotated sorted array2
+1. 用和最后一个元素比较来防止没有split point。
+2. 和最后一个元素比，判断条件不能写nums[mid] >= last 而要写>last。因为本来就是>，和比较第一个不一样
+3.　todo还能再优化到一次搜索
 ### 84 largest rectangle in histogram
 1. 找到小于/大于某个点最近的点的时候，要想想单调栈。
 2. 模拟想一下出栈条件是什么。
