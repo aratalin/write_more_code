@@ -326,6 +326,9 @@ BST的中序遍历是升序的。
 1. 因为乘积可以变号，所以要维护最大最小值。
 2. 因为负数交叉相乘，所以要用中间变量存结果。
 
+### 153 Find Minimum in Rotated Sorted Array
+1. define a new array, the corresponding position means that if the element is larger than this last element
+
 ### 155 Min Stack
 1. vec.size() 记录的是当前有多少个值，而非空间。
 ```
