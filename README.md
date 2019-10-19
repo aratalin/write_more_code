@@ -329,6 +329,13 @@ BST的中序遍历是升序的。
 ### 153 Find Minimum in Rotated Sorted Array
 1. define a new array, the corresponding position means that if the element is larger than this last element
 
+
+### 154 Find Minimum in Rotated Sorted Array 2
+similar.
+but there is a more elegant solution! todo:
+https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/solution/154-find-minimum-in-rotated-sorted-array-ii-by-jyd/
+学习高级二分
+
 ### 155 Min Stack
 1. vec.size() 记录的是当前有多少个值，而非空间。
 ```
