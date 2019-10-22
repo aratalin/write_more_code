@@ -399,6 +399,9 @@ partition写法
 
 ### 221 Maximal Square
 1. dp　转移方法
+### 222 count-complete-tree-nodes
+1. binary search the number of tree nodes, we could find the node from root node with bin-representation.
+2. height of right / left . todo
 
 ### 226 Invert Binary Tree
 ok
