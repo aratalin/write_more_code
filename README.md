@@ -405,6 +405,9 @@ partition写法
 
 ### 226 Invert Binary Tree
 ok
+### 230 kth-smallest-element-in-a-bst
+ok
+
 ### 234 Palindrome Linked List
 1. 快慢指针找中点。
 2. 反转。
