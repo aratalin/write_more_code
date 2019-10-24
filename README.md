@@ -426,6 +426,10 @@ easy
 1. 每次删掉一行或者一列。
 2. 重点是开始的位置。 某行最大某列最小。
 
+### 275 H Index II
+1. 无视掉其余要小这个条件，即满足单调性。
+2. 找到的最大的H满足其他要小的条件。也即，他不能变的更大，说明H+1 > left -> H > left - 1 . so left is no more than H.
+
 ### 279 Perfect Squares
 1. dp，变成无穷背包，复杂度O(n * sqrt(n)) 
 2. dp　记忆化搜索
